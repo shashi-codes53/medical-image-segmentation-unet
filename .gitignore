@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Data (too large for git, never commit datasets)
+data/images/
+data/masks/
+
+# Model checkpoints & logs (too large for git)
+outputs/checkpoints/*.pth
+outputs/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
